@@ -1,0 +1,109 @@
+<!-- this bonus exercise is a study planner in html and css  -->
+<!DOCTYPE html> 
+<html> 
+    <head>     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <title>Study Planner</title>     
+        <link rel="stylesheet" href="Study Planner style.css">     
+    </head> 
+    <body>     <!-- Nav bar html start -->     
+        <ul id="navBar">         
+            <li><a class="active" href="#home">Home</a></li>        
+             <li><a href="#html">HTML</a></li>        
+             <li><a href="#css">CSS</a></li>         
+             <li><a href="#js">JS</a></li>     
+        </ul>     <!-- Nav bar html end -->          
+        <!-- Image Banner -->     
+        <div class="container" style="height: 500px;overflow: hidden">                  
+            <img class="bannerImg" src="software-development-illustration_73903-337 Small.jpeg">         
+            <div class="logo">             
+                <h1>Study Planner</h1>             
+                <p>Web Developmentt</p>             
+                <button onclick="nav();">Go to Content</button>         
+            </div>     
+        </div><br><br>     
+        <!--Image Banner -->          
+            <!-- 3 column layout for main content-->     
+            <div class="row" id="content" style="margin-bottom: 100px">         
+                <div class="column left"  id="html" >             
+                    <h1>HTML </h1><hr>             
+                    <dl>                 
+                        <dt>Introduction</dt>                 
+                        <dd>                     HTML is a markup language that is used to create web pages.<br>                    
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>HTML Tags</dt>                 
+                        <dd>                     HTML tags are like keywords which defines that how web browser will format and display the content. <br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>Attributes</dt>                 
+                        <dd>                     HTML attribute is a piece of markup language used to adjust the behavior or display of an HTML element.<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>HTML Headings</dt>                 
+                        <dd>                     The HTML header tag can contain one or more heading elements, logos or icons, or ownership information.<br>                    
+                            <a href="#">Link to the module</a>                
+                        </dd>                 
+                        <dt>Paragraphs</dt>                 
+                        <dd>                     A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.<br>                    
+                            <a href="#">Link to the module</a>                 
+                        </dd>             
+                    </dl>         
+                </div>         
+                <div class="column mid"  id="css">             
+                    <h1>CSS </h1><hr>             
+                    <dl>                 
+                        <dt>Introduction</dt>                 
+                        <dd>                     CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. <br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>Box Model</dt>                 
+                        <dd>                     The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. <br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>CSS Text</dt>                 
+                        <dd>                     CSS Text is a module of CSS that defines how to perform text manipulation, like line breaking, justification and alignment, white space handling, and text transformation.<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 <dt>CSS Links</dt>                 
+                        <dd>                     The :link CSS pseudo-class represents an element that has not yet been visited. <br>                    
+                            <a href="#">Link to the module</a>                 
+                        </dd>             
+                    </dl>         
+                </div>         
+                <div class="column right" id="js">             
+                    <h1>JavaScript </h1><hr>             
+                    <dl>                 
+                        <dt>Introduction</dt>                 
+                        <dd>                     JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>JS Syntax</dt>                 
+                        <dd>                     JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive.<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>JS Variables</dt>                 
+                        <dd>                     The JavaScript syntax defines two types of values: Fixed values; Variable values. Fixed values are called Literals. Variable values are called Variables.<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>JS Operators</dt>                 
+                        <dd>                     In JavaScript, an operator is a special symbol used to perform operations on operands (values and variables).<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>                 
+                        <dt>JS Functions</dt>                 
+                        <dd>                     A JavaScript function is a block of code designed to perform a particular task.<br>                     
+                            <a href="#">Link to the module</a>                 
+                        </dd>             
+                    </dl>         
+                </div>     
+            </div>     <!-- 3 column layout for main content-->                    
+            <!-- Footer html start -->     
+            <div id="footer">         
+                <p>	&#169; Marlvienne Carla Ramos</p>     
+            </div>     <!-- Footer html end -->     
+            <script>         
+                function nav(){             
+                    window.location.hash = '#content';         
+                }     
+            </script>  
+    </body>      
+</html>

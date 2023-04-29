@@ -1,0 +1,31 @@
+<!-- this exercise contains how to make a hirmap -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Hitmap</title>
+        <link rel="stylesheet" href="Hitmap.css">
+    </head>
+    <body>
+        <!-- div class as the full syntax of the image -->
+        <div class="container">
+            <!-- i use guitar images because i love music -->
+            <img src="01de58e5bcd2245eafb53f96b1bb3a08.jpg" usemap="#rock"/>
+            <map name="rock">
+                <!-- area is used to define a clickable are inside an image -->
+                <!-- shape attribute specifies the shapeof the clickable are -->
+                <!-- coords attribute is used to specify the coordinates of a clickable
+                is required for all shapes except for the "default" shape -->
+                <area shape="rect" coords="2,39,97,264" title="Telecaster" href="https://www.fender.com/articles/behind-the-scenes/the-magic-of-the-64-tele">
+                <area shape="rect" coords="112,23,210,270" title="Warlock" href="https://guitarspace.org/electric-guitars/bc-rich-warlock-review/">
+                <area shape="rect" coords="232,39,328,262" title="L5S" href="https://www.vintageguitarandbass.com/gibson/L5S.php">
+                <area shape="rect" coords="345,41,444,260" title="Ex Black Metal" href="https://www.espguitars.com/products/24228-ex-black-metal">
+                <area shape="rect" coords="461,29,551,255" title="SG" href="https://www.epiphone.com/en-US/Collection/sg">
+                <area shape="rect" coords="6,365,95,570" title="Stratocaster" href="https://www.fender.com/en/squier-electric-guitars/stratocaster/squier-sonic-stratocaster-ht/0373250558.html">
+                <area shape="rect" coords="117,352,219,574" title="X Body" href="https://www.jacksonguitars.com/en-US/body-shape/king-v/x-series-king-v-kvxmg/2916400568.html">
+                <area shape="rect" coords="237,359,326,569" title="Gibson Les Paul Ebony" href="https://www.gibson.com/en-US/Electric-Guitar/CUSU36573/Ebony">
+                <area shape="rect" coords="344,353,440,572" title="Warmoth" href="https://reverb.com/item/4545589-warmoth-custom-z-electric-guitar">
+                <area shape="rect" coords="462,345,543,573" title="Les Paul Epiphone" href="https://www.epiphone.com/en-US/Collection/les-paul">
+            </map>
+        </div>
+    </body>
+</html>

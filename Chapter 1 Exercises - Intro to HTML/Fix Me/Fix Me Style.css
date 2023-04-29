@@ -1,0 +1,27 @@
+/* this is the css file for the fix me html */
+/* h1 if for the title of the story */
+h1{ 
+    font-size: 3rem; 
+    text-align: center; 
+}
+/* h2 is for the author's name */
+h2{
+    font-size: 1.25rem; 
+    text-align: center;
+    font-style: italic; 
+    font-weight: 100;
+}
+/* h3 is for the part of the story */
+h3{
+    font-size: 1.25rem; 
+    text-align: center;
+}
+/* this is for the story itself */
+p{ 
+    line-height: 1.3; 
+}
+/* for the whole body */
+body{
+    background-color: aliceblue;
+    font-family: Georgia, serif;
+}

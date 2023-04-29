@@ -1,0 +1,17 @@
+/* this style is for the whole body of html */
+body {
+    background-color: rgb(201, 167, 235);
+}
+/* is for the background color of the image */
+.container {
+    background-color: #042b41;
+	display: inline-block;
+	padding: 10px;
+    height: 100%;
+}
+/* style of the image */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
