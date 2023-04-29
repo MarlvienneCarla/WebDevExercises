@@ -1,0 +1,134 @@
+/* this is where all the boxes/button of the audio are designed */
+.grid-container {     
+    display: grid;     
+    grid-template-columns: auto auto auto;     
+    padding: 20px;   
+    float: right;
+}   
+/* This is where every button/boxes are designed */
+.grid-item {     
+    background-color: rgba(255, 255, 255);     
+    border: 1px solid rgba(0, 0, 0, 0.8);     
+    padding: 25px;     
+    margin:20px;     
+    font-size: 20px;     
+    text-align: center;     
+    border-radius: 15px;     
+    border: 5px solid black;   
+    float: right;
+}   
+/* "hover" may be a pseudo-class that's utilized to apply styles to 
+an component when the client floats over it with their mouse pointer.
+ The "hover" pseudo-class is regularly utilized in combination with other selectors to 
+ alter the appearance of an component when the client interatomic with it. */
+.grid-item:hover{       
+    background-color: plum;   
+}   
+/* it's a class where the main title of the text-to-speech which is the "psychadelic fish" were designed*/
+.title {
+    font-size: 20px;
+    background-color: plum;
+    padding:5px;     
+    margin:30px;    
+    margin-left: 50px;     
+    margin-right: 50px; 
+    float: left;
+}
+/* This is for the button next and back */
+.btn{       
+    background-color: transparent;       
+    border: 1;       
+    width:200px;       
+    border: 5px;   
+    font-weight: bold;
+}   
+/* this is for the whole body of html */
+body{       
+    background-color: blueviolet;    
+}  
+/* this is for the title "Audio Sampler" */
+.heading{     
+    font-size: 20px;     
+    background-color:white;     
+    color:black;        
+    padding:5px;     
+    margin:30px;    
+    margin-left: 50px;     
+    margin-right: 50px; 
+    float: right;
+}
+/* this is for the text are of text-to-speech */
+textarea {
+    border: none;
+    appearance: none;
+    outline: none;
+    resize: none;
+    background-color: #fff;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border-radius: 10px;
+    width: 425px;
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    top: 85px;
+    left: 30px;
+}
+/* this is for the button in text-to-speech */
+button.sayit {
+    border: none;
+    appearance: none;
+    outline: none;
+    background-color:#fff;
+    color: black;
+    font-size: 28px;
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    top: 85px;
+    left: 475px;
+}
+/* this is for when the cursor points at the button for text-to-speech */
+.sayit:hover {
+    background-color: black;
+    color: #fff;
+    border: 10px solid #fff;
+}
+/* This is for the inside of the box/button in audio */
+#audio-sampler {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* this is for the outside of the box/button in audio */
+#sample-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+/* This is for the whole buttons in div */
+.audio-sample {
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 10px;
+}
+/* this is for the left and right button */
+#nav-container {
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+/* for the specification of left and right button */
+#prev-btn,
+#next-btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    float: right;
+}
+  

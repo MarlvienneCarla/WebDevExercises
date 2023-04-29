@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Video</title>
+    <style>
+        body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: rgb(186, 144, 198);
+		}
+		video {
+			max-width: 100%;
+			max-height: 100%;
+		}
+    </style>
+</head>
+<body>
+	<video poster="db11ceb30d2c0a97ec47a67502f53294.jpg" controls autoplay loop>
+		<source src="Our Story in 1 Minute.mp4" type="video/mp4">
+        <!-- autoplay is added as an attribute to the <video> tag, 
+            which tells the browser to start playing the video automatically as soon as it is loaded. 
+            The src attribute specifies the path to the video file and the type attribute specifies 
+            the MIME type of the video. -->
+	</video>
+    <script>
+        /*It is important to note that some older browsers do not support circles. 
+        In this case, you can use JavaScript to loop the video.*/
+        var video = document.querySelector('video');
+        video.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+                /*This code adds an event listener to the video element that listens for the 
+            last event (triggered when the video finishes playing). When the event is triggered, 
+            the current property is set to 0 (video rewind) and the play() method is called to 
+            start replaying the video.*/
+    </script>
+</body>
+</html>

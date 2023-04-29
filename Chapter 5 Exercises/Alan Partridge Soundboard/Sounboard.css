@@ -1,0 +1,44 @@
+/* here is for all of th button of the audio */
+.grid-container {     
+    display: grid;     
+    grid-template-columns: auto auto auto;     
+    padding: 20px;   
+}   
+/* for every audio button */
+.grid-item {     
+    background-color: rgba(255, 255, 255);     
+    border: 1px solid rgba(0, 0, 0, 0.8);     
+    padding: 25px;     
+    margin:20px;     
+    font-size: 20px;     
+    text-align: center;     
+    border-radius: 15px;     
+    border: 5px solid black;   
+}   
+/* for when the cursor points at the buttons */
+.grid-item:hover{       
+    background-color: plum;   
+}   
+/* for the button */
+.btn{       
+    background-color: transparent;       
+    border: 1;       
+    width:250px;       
+    border: 5px;   
+}   
+/* in general */
+body{       
+    background-image: url(file:///Users/marlviennecarla/Desktop/Creative%20Computing/Web%20Programming/Web%20Development/Chapter%205/%20Small.jpeg);       
+    background-size: cover;   
+}  
+/* for the header */
+.heading{     
+    font-size: 20px;     
+    background-color:white;     
+    color:black;     
+    text-align: center;     
+    padding:5px;     
+    margin:30px;    
+    margin-left: 50px;     
+    margin-right: 50px; 
+}
